@@ -1,0 +1,46 @@
+/* Reset CSS */
+
+/* Define a margem e o padding como zero para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Isso garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem */
+}
+
+/* Estiliza elementos HTML para terem uma aparência mais consistente em diferentes navegadores */
+html {
+    font-size: 16px; /* Define o tamanho da fonte base em 16 pixels (opcional, pode ser ajustado conforme necessário) */
+    line-height: 1.5; /* Define a altura da linha como 1.5 vezes o tamanho da fonte */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+/* Remove a decoração de texto padrão (sublinhado) dos links */
+a {
+    text-decoration: none;
+}
+
+/* Define a cor do texto para preto */
+body {
+    color: #000;
+}
+
+/* Remove a lista de estilos padrão e o preenchimento da lista */
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Remova a margem padrão do corpo */
+body {
+    margin: 0;
+}
+
+/* Remova a margem do título */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Remova o estilo de contorno dos elementos de foco */
+:focus {
+    outline: none;
+}

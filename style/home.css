@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root {
+    --cor-principal-rgb: 0, 39, 81;
+    --cor-secundaria-rgb: 249, 157, 33;
+    --cor-principal: #002751;
+    --cor-secundaria: #F99d21;
+    --cor-fundo-rgb: 250, 250, 250;
+    --cor-fundo:#fafafa;
+    --cor-apoio: #333333;
+}
+
+body{
+    background-color: rgba(var(--cor-principal-rgb));
+}
+
+.navbar {
+    --bs-navbar-brand-hover-color: rgba(var( --cor-secundaria-rgb), 1);
+    background-color: rgba(var(--cor-principal-rgb)) !important;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand{
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link.disabled{
+    color: rgba(var( --cor-secundaria-rgb), 0.7);
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: rgba(var( --cor-secundaria-rgb), 1);
+}
+
+.navbar-toggler{
+    background-color: var(--cor-secundaria)
+}
+
+h2{
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem; 
+    width: 100%;
+}
+
+.carousel-item img{
+    max-height: 60vh;
+}
+
+.conteudo{
+    border-radius: 1rem;
+    background-color: rgba(var(--cor-fundo-rgb)) !important;
+    padding:1vh 0.5vw 5vh 0.5vw;
+    margin-bottom: 2rem;
+}
+
+.secao{
+    margin-bottom: 5rem;
+}
+
+p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contatos{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contato{
+    align-items: center;
+}
+
+.contato img{
+    padding-top: 1rem;
+    max-width: 100px;
+}
+
+.text-body-secondary{
+    color: var(--cor-secundaria) !important;
+}
